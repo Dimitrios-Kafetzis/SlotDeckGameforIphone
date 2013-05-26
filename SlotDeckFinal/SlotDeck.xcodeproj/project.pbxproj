@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SlotDeckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SlotDeckAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2682AAA412B246C800F09F08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2682AAA312B246C800F09F08 /* Default.png */; };
+		26C432C012A8F6A400F0C8DA /* iconSlotDeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C432BF12A8F6A400F0C8DA /* iconSlotDeck.png */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		BD8A9ADC129D820400DE453D /* 200-card-clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8A9ADB129D820400DE453D /* 200-card-clubs.png */; };
+		BD8D678512A1E07800C8DB69 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8D678412A1E07800C8DB69 /* AVFoundation.framework */; };
+		BD8F006412B5729F00C348DD /* tipsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8F006312B5729F00C348DD /* tipsBackground.png */; };
+		BD8F006812B572B100C348DD /* arrowButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8F006712B572B100C348DD /* arrowButton1.png */; };
+		BD90D51712A051A4008F8573 /* reset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD90D51612A051A4008F8573 /* reset.jpg */; };
+		BD90D53112A05738008F8573 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD90D53012A05738008F8573 /* Settings.bundle */; };
+		BD90E25812ADBAAB00962966 /* symbol42c.png in Resources */ = {isa = PBXBuildFile; fileRef = BD90E25712ADBAAB00962966 /* symbol42c.png */; };
+		BD90E2DB12ADD29500962966 /* winnerOne.png in Resources */ = {isa = PBXBuildFile; fileRef = BD90E2DA12ADD29500962966 /* winnerOne.png */; };
+		BD91157812B5779B004DAF15 /* showscoresButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD91157712B5779B004DAF15 /* showscoresButton1.png */; };
+		BD9115A512B57C1E004DAF15 /* introIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9115A412B57C1E004DAF15 /* introIcon.png */; };
+		BD9229F712B06CA8008A7ECD /* VivaLasVegas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD9229F612B06CA8008A7ECD /* VivaLasVegas.mp3 */; };
+		BD93EEAB12A159C300F2DA89 /* slotdeckLoGo.png in Resources */ = {isa = PBXBuildFile; fileRef = BD93EEAA12A159C300F2DA89 /* slotdeckLoGo.png */; };
+		BD93EEF412A17C6900F2DA89 /* intotaboverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = BD93EEF312A17C6900F2DA89 /* intotaboverlay.png */; };
+		BD93EF4E12A1857900F2DA89 /* CoinFeedMe.png in Resources */ = {isa = PBXBuildFile; fileRef = BD93EF4D12A1857900F2DA89 /* CoinFeedMe.png */; };
+		BD9D0A8412AEA2C300880227 /* blacklight.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0A8312AEA2C300880227 /* blacklight.png */; };
+		BD9EDF7C1299495400E12A9D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9EDF7A1299495400E12A9D /* Game.m */; };
+		BD9EDF7D1299495400E12A9D /* Game.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF7B1299495400E12A9D /* Game.xib */; };
+		BD9EDF811299497D00E12A9D /* Howto.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9EDF7F1299497D00E12A9D /* Howto.m */; };
+		BD9EDF821299497D00E12A9D /* Howto.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF801299497D00E12A9D /* Howto.xib */; };
+		BD9EDF86129949A400E12A9D /* HighScores.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9EDF84129949A400E12A9D /* HighScores.m */; };
+		BD9EDF87129949A400E12A9D /* HighScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF85129949A400E12A9D /* HighScores.xib */; };
+		BD9EDF8E12994C5100E12A9D /* symbol12 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF8D12994C5100E12A9D /* symbol12 3.png */; };
+		BD9EDF9212994E1400E12A9D /* symbol12.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF9112994E1400E12A9D /* symbol12.png */; };
+		BD9EDF9412994E1A00E12A9D /* symbol22.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF9312994E1A00E12A9D /* symbol22.png */; };
+		BD9EDF9612994E1E00E12A9D /* symbol32.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDF9512994E1E00E12A9D /* symbol32.png */; };
+		BD9EDFF012995EC500E12A9D /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EDFEF12995EC500E12A9D /* 96-book.png */; };
+		BD9EE0AF1299762D00E12A9D /* slotDeckSettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9EE0AE1299762D00E12A9D /* slotDeckSettingsIcon.png */; };
+		BDA0D745129994E00056ECDB /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA0D744129994E00056ECDB /* CoinSound.mp3 */; };
+		BDA0D753129996870056ECDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA0D752129996870056ECDB /* AudioToolbox.framework */; };
+		BDA155F812B52AFE00E405B7 /* tipsbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA155F712B52AFE00E405B7 /* tipsbutton1.png */; };
+		BDA155FA12B52B0500E405B7 /* scoresBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA155F912B52B0500E405B7 /* scoresBackground.png */; };
+		BDA155FC12B52B0D00E405B7 /* playbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA155FB12B52B0D00E405B7 /* playbutton1.png */; };
+		BDA4242F12A19E8E00F785AC /* FeedMeLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4242E12A19E8E00F785AC /* FeedMeLabel.png */; };
+		BDA45424129C798000795EC5 /* SettingsTab.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA45422129C798000795EC5 /* SettingsTab.m */; };
+		BDA45425129C798000795EC5 /* SettingsTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA45423129C798000795EC5 /* SettingsTab.xib */; };
+		BDA45497129C9FBC00795EC5 /* Cards.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA45496129C9FBC00795EC5 /* Cards.m */; };
+		BDA83FAF12AEB9930081C690 /* slotdeckLoGo2.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA83FAE12AEB9930081C690 /* slotdeckLoGo2.png */; };
+		BDA83FC512AEBB240081C690 /* playButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDA83FC412AEBB240081C690 /* playButton.jpg */; };
+		BDA9982412993E0F00736A9B /* IntroTab.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9982212993E0F00736A9B /* IntroTab.m */; };
+		BDA9982512993E0F00736A9B /* IntroTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA9982312993E0F00736A9B /* IntroTab.xib */; };
+		BDB23C3212B41CEE00AC3585 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB23C3112B41CEE00AC3585 /* seven.png */; };
+		BDB23C7612B428CF00AC3585 /* Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB23C7412B428CF00AC3585 /* Tips.m */; };
+		BDB23C7712B428CF00AC3585 /* Tips.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB23C7512B428CF00AC3585 /* Tips.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SlotDeckAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotDeckAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SlotDeckAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotDeckAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SlotDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2682AAA312B246C800F09F08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26C432BF12A8F6A400F0C8DA /* iconSlotDeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSlotDeck.png; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SlotDeck_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotDeck_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SlotDeck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlotDeck-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD8A9ADB129D820400DE453D /* 200-card-clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200-card-clubs.png"; sourceTree = "<group>"; };
+		BD8D678412A1E07800C8DB69 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BD8F006312B5729F00C348DD /* tipsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipsBackground.png; sourceTree = "<group>"; };
+		BD8F006712B572B100C348DD /* arrowButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowButton1.png; sourceTree = "<group>"; };
+		BD90D51612A051A4008F8573 /* reset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reset.jpg; sourceTree = "<group>"; };
+		BD90D53012A05738008F8573 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BD90E25712ADBAAB00962966 /* symbol42c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol42c.png; sourceTree = "<group>"; };
+		BD90E2DA12ADD29500962966 /* winnerOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winnerOne.png; sourceTree = "<group>"; };
+		BD91157712B5779B004DAF15 /* showscoresButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showscoresButton1.png; sourceTree = "<group>"; };
+		BD9115A412B57C1E004DAF15 /* introIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introIcon.png; sourceTree = "<group>"; };
+		BD9229F612B06CA8008A7ECD /* VivaLasVegas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VivaLasVegas.mp3; sourceTree = "<group>"; };
+		BD93EEAA12A159C300F2DA89 /* slotdeckLoGo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotdeckLoGo.png; sourceTree = "<group>"; };
+		BD93EEF312A17C6900F2DA89 /* intotaboverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intotaboverlay.png; sourceTree = "<group>"; };
+		BD93EF4D12A1857900F2DA89 /* CoinFeedMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoinFeedMe.png; sourceTree = "<group>"; };
+		BD9D0A8312AEA2C300880227 /* blacklight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blacklight.png; sourceTree = "<group>"; };
+		BD9EDF791299495400E12A9D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		BD9EDF7A1299495400E12A9D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		BD9EDF7B1299495400E12A9D /* Game.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Game.xib; path = Classes/Game.xib; sourceTree = "<group>"; };
+		BD9EDF7E1299497D00E12A9D /* Howto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Howto.h; sourceTree = "<group>"; };
+		BD9EDF7F1299497D00E12A9D /* Howto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Howto.m; sourceTree = "<group>"; };
+		BD9EDF801299497D00E12A9D /* Howto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Howto.xib; path = Classes/Howto.xib; sourceTree = "<group>"; };
+		BD9EDF83129949A400E12A9D /* HighScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScores.h; sourceTree = "<group>"; };
+		BD9EDF84129949A400E12A9D /* HighScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScores.m; sourceTree = "<group>"; };
+		BD9EDF85129949A400E12A9D /* HighScores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HighScores.xib; path = Classes/HighScores.xib; sourceTree = "<group>"; };
+		BD9EDF8D12994C5100E12A9D /* symbol12 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "symbol12 3.png"; sourceTree = "<group>"; };
+		BD9EDF9112994E1400E12A9D /* symbol12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol12.png; sourceTree = "<group>"; };
+		BD9EDF9312994E1A00E12A9D /* symbol22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol22.png; sourceTree = "<group>"; };
+		BD9EDF9512994E1E00E12A9D /* symbol32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol32.png; sourceTree = "<group>"; };
+		BD9EDFEF12995EC500E12A9D /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		BD9EE0AE1299762D00E12A9D /* slotDeckSettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotDeckSettingsIcon.png; sourceTree = "<group>"; };
+		BDA0D744129994E00056ECDB /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		BDA0D752129996870056ECDB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BDA155F712B52AFE00E405B7 /* tipsbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipsbutton1.png; sourceTree = "<group>"; };
+		BDA155F912B52B0500E405B7 /* scoresBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoresBackground.png; sourceTree = "<group>"; };
+		BDA155FB12B52B0D00E405B7 /* playbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton1.png; sourceTree = "<group>"; };
+		BDA4242E12A19E8E00F785AC /* FeedMeLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedMeLabel.png; sourceTree = "<group>"; };
+		BDA45421129C798000795EC5 /* SettingsTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTab.h; sourceTree = "<group>"; };
+		BDA45422129C798000795EC5 /* SettingsTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTab.m; sourceTree = "<group>"; };
+		BDA45423129C798000795EC5 /* SettingsTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsTab.xib; path = Classes/SettingsTab.xib; sourceTree = "<group>"; };
+		BDA45495129C9FBC00795EC5 /* Cards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cards.h; sourceTree = "<group>"; };
+		BDA45496129C9FBC00795EC5 /* Cards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cards.m; sourceTree = "<group>"; };
+		BDA83FAE12AEB9930081C690 /* slotdeckLoGo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotdeckLoGo2.png; sourceTree = "<group>"; };
+		BDA83FC412AEBB240081C690 /* playButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playButton.jpg; sourceTree = "<group>"; };
+		BDA9982112993E0F00736A9B /* IntroTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTab.h; sourceTree = "<group>"; };
+		BDA9982212993E0F00736A9B /* IntroTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTab.m; sourceTree = "<group>"; };
+		BDA9982312993E0F00736A9B /* IntroTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IntroTab.xib; path = Classes/IntroTab.xib; sourceTree = "<group>"; };
+		BDB23C3112B41CEE00AC3585 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		BDB23C7312B428CF00AC3585 /* Tips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tips.h; sourceTree = "<group>"; };
+		BDB23C7412B428CF00AC3585 /* Tips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tips.m; sourceTree = "<group>"; };
+		BDB23C7512B428CF00AC3585 /* Tips.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Tips.xib; path = Classes/Tips.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				BDA0D753129996870056ECDB /* AudioToolbox.framework in Frameworks */,
+				BD8D678512A1E07800C8DB69 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SlotDeckAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SlotDeckAppDelegate.m */,
+				BDA9982112993E0F00736A9B /* IntroTab.h */,
+				BDA9982212993E0F00736A9B /* IntroTab.m */,
+				BDB23C7312B428CF00AC3585 /* Tips.h */,
+				BDB23C7412B428CF00AC3585 /* Tips.m */,
+				BDA45421129C798000795EC5 /* SettingsTab.h */,
+				BDA45422129C798000795EC5 /* SettingsTab.m */,
+				BD9EDF791299495400E12A9D /* Game.h */,
+				BD9EDF7A1299495400E12A9D /* Game.m */,
+				BD9EDF7E1299497D00E12A9D /* Howto.h */,
+				BD9EDF7F1299497D00E12A9D /* Howto.m */,
+				BD9EDF83129949A400E12A9D /* HighScores.h */,
+				BD9EDF84129949A400E12A9D /* HighScores.m */,
+				BDA45495129C9FBC00795EC5 /* Cards.h */,
+				BDA45496129C9FBC00795EC5 /* Cards.m */,
+				BD90D53012A05738008F8573 /* Settings.bundle */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SlotDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BDA0D752129996870056ECDB /* AudioToolbox.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SlotDeck_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2682AAA312B246C800F09F08 /* Default.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				BDA9982312993E0F00736A9B /* IntroTab.xib */,
+				BDB23C7512B428CF00AC3585 /* Tips.xib */,
+				BDA45423129C798000795EC5 /* SettingsTab.xib */,
+				BD9EDF7B1299495400E12A9D /* Game.xib */,
+				BD9EDF801299497D00E12A9D /* Howto.xib */,
+				BD9EDF85129949A400E12A9D /* HighScores.xib */,
+				BD8F006312B5729F00C348DD /* tipsBackground.png */,
+				BDA155F712B52AFE00E405B7 /* tipsbutton1.png */,
+				BDA155FB12B52B0D00E405B7 /* playbutton1.png */,
+				BD8F006712B572B100C348DD /* arrowButton1.png */,
+				BD91157712B5779B004DAF15 /* showscoresButton1.png */,
+				BDA155F912B52B0500E405B7 /* scoresBackground.png */,
+				BD9D0A8312AEA2C300880227 /* blacklight.png */,
+				BD9115A412B57C1E004DAF15 /* introIcon.png */,
+				BDA83FC412AEBB240081C690 /* playButton.jpg */,
+				BD93EF4D12A1857900F2DA89 /* CoinFeedMe.png */,
+				BD93EEF312A17C6900F2DA89 /* intotaboverlay.png */,
+				BD93EEAA12A159C300F2DA89 /* slotdeckLoGo.png */,
+				BDA83FAE12AEB9930081C690 /* slotdeckLoGo2.png */,
+				BD90D51612A051A4008F8573 /* reset.jpg */,
+				BD90E2DA12ADD29500962966 /* winnerOne.png */,
+				BDA4242E12A19E8E00F785AC /* FeedMeLabel.png */,
+				BD9EDF8D12994C5100E12A9D /* symbol12 3.png */,
+				BD9EDF9112994E1400E12A9D /* symbol12.png */,
+				BD9EDF9312994E1A00E12A9D /* symbol22.png */,
+				BD9EDF9512994E1E00E12A9D /* symbol32.png */,
+				BD90E25712ADBAAB00962966 /* symbol42c.png */,
+				BDB23C3112B41CEE00AC3585 /* seven.png */,
+				BD9EDFEF12995EC500E12A9D /* 96-book.png */,
+				BD9EE0AE1299762D00E12A9D /* slotDeckSettingsIcon.png */,
+				BD8A9ADB129D820400DE453D /* 200-card-clubs.png */,
+				26C432BF12A8F6A400F0C8DA /* iconSlotDeck.png */,
+				BDA0D744129994E00056ECDB /* CoinSound.mp3 */,
+				BD9229F612B06CA8008A7ECD /* VivaLasVegas.mp3 */,
+				8D1107310486CEB800E47090 /* SlotDeck-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				BD8D678412A1E07800C8DB69 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SlotDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SlotDeck" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotDeck;
+			productName = SlotDeck;
+			productReference = 1D6058910D05DD3D006BFB54 /* SlotDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SlotDeck" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SlotDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				BDA9982512993E0F00736A9B /* IntroTab.xib in Resources */,
+				BD9EDF7D1299495400E12A9D /* Game.xib in Resources */,
+				BD9EDF821299497D00E12A9D /* Howto.xib in Resources */,
+				BD9EDF87129949A400E12A9D /* HighScores.xib in Resources */,
+				BD9EDF8E12994C5100E12A9D /* symbol12 3.png in Resources */,
+				BD9EDF9212994E1400E12A9D /* symbol12.png in Resources */,
+				BD9EDF9412994E1A00E12A9D /* symbol22.png in Resources */,
+				BD9EDF9612994E1E00E12A9D /* symbol32.png in Resources */,
+				BD9EDFF012995EC500E12A9D /* 96-book.png in Resources */,
+				BD9EE0AF1299762D00E12A9D /* slotDeckSettingsIcon.png in Resources */,
+				BDA0D745129994E00056ECDB /* CoinSound.mp3 in Resources */,
+				BDA45425129C798000795EC5 /* SettingsTab.xib in Resources */,
+				BD8A9ADC129D820400DE453D /* 200-card-clubs.png in Resources */,
+				BD90D51712A051A4008F8573 /* reset.jpg in Resources */,
+				BD90D53112A05738008F8573 /* Settings.bundle in Resources */,
+				BD93EEAB12A159C300F2DA89 /* slotdeckLoGo.png in Resources */,
+				BD93EEF412A17C6900F2DA89 /* intotaboverlay.png in Resources */,
+				BD93EF4E12A1857900F2DA89 /* CoinFeedMe.png in Resources */,
+				BDA4242F12A19E8E00F785AC /* FeedMeLabel.png in Resources */,
+				26C432C012A8F6A400F0C8DA /* iconSlotDeck.png in Resources */,
+				BD90E25812ADBAAB00962966 /* symbol42c.png in Resources */,
+				BD90E2DB12ADD29500962966 /* winnerOne.png in Resources */,
+				BD9D0A8412AEA2C300880227 /* blacklight.png in Resources */,
+				BDA83FAF12AEB9930081C690 /* slotdeckLoGo2.png in Resources */,
+				BDA83FC512AEBB240081C690 /* playButton.jpg in Resources */,
+				BD9229F712B06CA8008A7ECD /* VivaLasVegas.mp3 in Resources */,
+				2682AAA412B246C800F09F08 /* Default.png in Resources */,
+				BDB23C3212B41CEE00AC3585 /* seven.png in Resources */,
+				BDB23C7712B428CF00AC3585 /* Tips.xib in Resources */,
+				BDA155F812B52AFE00E405B7 /* tipsbutton1.png in Resources */,
+				BDA155FA12B52B0500E405B7 /* scoresBackground.png in Resources */,
+				BDA155FC12B52B0D00E405B7 /* playbutton1.png in Resources */,
+				BD8F006412B5729F00C348DD /* tipsBackground.png in Resources */,
+				BD8F006812B572B100C348DD /* arrowButton1.png in Resources */,
+				BD91157812B5779B004DAF15 /* showscoresButton1.png in Resources */,
+				BD9115A512B57C1E004DAF15 /* introIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SlotDeckAppDelegate.m in Sources */,
+				BDA9982412993E0F00736A9B /* IntroTab.m in Sources */,
+				BD9EDF7C1299495400E12A9D /* Game.m in Sources */,
+				BD9EDF811299497D00E12A9D /* Howto.m in Sources */,
+				BD9EDF86129949A400E12A9D /* HighScores.m in Sources */,
+				BDA45424129C798000795EC5 /* SettingsTab.m in Sources */,
+				BDA45497129C9FBC00795EC5 /* Cards.m in Sources */,
+				BDB23C7612B428CF00AC3585 /* Tips.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SlotDeck_Prefix.pch;
+				INFOPLIST_FILE = "SlotDeck-Info.plist";
+				PRODUCT_NAME = SlotDeck;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SlotDeck_Prefix.pch;
+				INFOPLIST_FILE = "SlotDeck-Info.plist";
+				PRODUCT_NAME = SlotDeck;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SlotDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SlotDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
